@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(LOG, "onCreatetM");
+        
+        // nghich linh tinh lan 1
 
         frameLayout = findViewById(R.id.frLayoutMain);
         btnAdd1 = findViewById(R.id.btnAddFrg1);
